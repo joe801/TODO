@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="jquery3.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body>
+  <div class="background" id="background">
+    
+  </div>
+  <div class="contain">
+    <div class="container">
+      <div class="title">
+        <div class="todo">TODO</div>
+        <div class="icon" id="sun"><img src="images/icon-sun.svg"></div>
+        <div class="icon" id="moon"><img src="images/icon-moon.svg"></div>
+
+      </div>
+
+      <!-- Todo Input -->
+
+      <div class="input">
+        <div class="check"></div>
+        <input type="text" name="" id="input-text">
+        <div class="add" id="add-button"><p>+</p></div>
+      </div>
+
+      <!-- Todo LIst -->
+
+      <div id="lists" class="lists-contain">
+        <!--
+        <div class="list">
+          <div class="check"><img src=""></div>
+          <input type="text" name="" readonly class="disp" value="" >
+          <div class="delete"><img src="images/icon-cross.svg"></div>
+        </div> -->
+      </div>
+        <!-- list commands --> 
+
+        <div class="list commands">
+          <div class="items"><span id="countdown">7</span> items left</div>
+          <div class="condition">
+            <p class="all">All</p>
+            <p class="active">Active</p>
+            <p class="completed">Completed</p>
+          </div>
+          <div class="clear" id="clear">Clear Completed</div>
+        </div> 
+        <div class="list commands" id="mobile-condition">
+            <p class="all" id="all_">All</p>
+            <p class="active" id="active_">Active</p>
+            <p class="completed" id="complete">Completed</p>
+        </div> 
+        <p class="drag completed">Drag and drop to reorder list</p>
+    </div> 
+  </div>
+  <ul id="sort">
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+  </ul>
+
+  <footer>
+    <p>@joe<span>crypt</span></p>
+  </footer>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
