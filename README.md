@@ -16,8 +16,6 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -40,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [TODO repo](https://your-solution-url.com)
-- Live Site URL: [TODO](https://your-live-site-url.com)
+- Solution URL: [TODO repo](https://github.com/joe801/TODO)
+- Live Site URL: [TODO](https://todo.joecrypt.repl.co/)
 
 ## My process
 
@@ -75,7 +73,7 @@ I want to work on making use of the right html5 markup semantics.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [joecrypt](https://www.joecrypt.tk)
 - Frontend Mentor - [Joecrypt](https://www.frontendmentor.io/profile/joe801)
 - Twitter - [@Joecrypt_](https://www.twitter.com/Joecrypt_)
 - Linkedin - [@joecrypt](https://wwww.linkedin.com/in/joecrypt)
